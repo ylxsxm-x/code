@@ -14,7 +14,7 @@ public class AirPlane {
         frame.setVisible(true);
     }
     public void x(){
-        System.out.println(1);
+        System.out.println(2);
     }
 
 }
