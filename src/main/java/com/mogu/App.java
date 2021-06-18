@@ -6,17 +6,14 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.io.InputStream;
 
-/**
- * 处理图片的工具类
- * @param
- * @date
- */
+//处理图片的工具类
 public class App {
     //static可以公用所有对象都共用该方法，并且可以不依赖对象实现
     public static BufferedImage getImg(String path){
         //io流，输送数据的管道
         try {
-            return ImageIO.read(App.class.getResource(path));
+            BufferedImage img = ImageIO.read(App.class.getResource(path));
+            return img;
         } catch (IOException e) {
             e.printStackTrace();
         }

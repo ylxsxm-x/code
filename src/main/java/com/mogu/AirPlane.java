@@ -13,5 +13,8 @@ public class AirPlane {
         //设置窗体可见
         frame.setVisible(true);
     }
+    public void x(){
+        System.out.println(1);
+    }
 
 }
