@@ -1,6 +1,6 @@
 package com.mogu;
 
-public class Guess {
+public class AirPlane {
     public static void main(String[] args) {
         //创建窗体
         GameFrame frame = new GameFrame();
